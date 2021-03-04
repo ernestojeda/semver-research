@@ -1,5 +1,4 @@
-#Semver Software Options
-
+# Semver Software Options
 
 ## Semantic Release
 
