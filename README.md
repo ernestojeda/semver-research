@@ -1,6 +1,15 @@
 # Semver Software Options
 
-## Semantic Release
+## Main Options
+
+* [Semantic Release](#semantic-release)
+* [Go Releaser](#go-releaser)
+* [Go Semantic Release](#go-semantic-release)
+* [Standard Version](#standard-version)
+* [Release It](#release-it)
+* [Release Please](#release-please)
+
+## 📦🚀 Semantic Release
 
 ### Website
 
@@ -10,7 +19,7 @@
 ### Details
 
 * Fully manages every aspect of the release of a project. Determines semver version based on conventional commit history
-* Very popular 12k GitHub stars
+* Very popular 12k GitHub stars, [41K usage](https://github.com/semantic-release/semantic-release/network/dependents?package_id=UGFja2FnZS0xNDMwNDMzNw%3D%3D)
 * Well Maintained
 * Node based, would require used of node based docker image
 * Good Documentation, lots of examples
@@ -65,6 +74,8 @@ The typical release is based off of these plugins:
 
 
 ## Go Releaser
+
+![Go Releaser](https://avatars2.githubusercontent.com/u/24697112?v=3&s=200)
 
 ### Website
 
@@ -131,7 +142,7 @@ changelog:
 * <https://carlosbecker.com/posts/goreleaser-lessons-learned/>
 
 
-## Go Semantic Release
+## 📦🚀 Go Semantic Release
 
 A more lightweight and standalone version of semantic-release.
 
@@ -169,6 +180,7 @@ A utility for versioning using semver and CHANGELOG generation powered by Conven
 
 * Written in Javascript
 * Automates the bumping of semver, no GitHub release
+* Automated CHANGELOG generation
 * Very simple, matches git-semver functionality the closest
 * Well established project and community
 * 4.7K GitHub Stars
@@ -196,11 +208,11 @@ A utility for versioning using semver and CHANGELOG generation powered by Conven
 
 * <https://github.com/conventional-changelog/standard-version#how-is-standard-version-different-from-semantic-release>
 
-## Release It
+## Release It! 🚀
 
 ### Website
 
-https://github.com/release-it/release-it
+<https://github.com/release-it/release-it>
 
 ### Details
 
@@ -216,13 +228,8 @@ https://github.com/release-it/release-it
 * Git commit, tag, push
 * Create release at GitHub or GitLab
 * Generate changelog
-* Publish to npm
 * Manage pre-releases
-* Extend with plugins
 * Release from any CI/CD environment
-
-### Features
-
 * Release config stored in `.release-it.[json|js|yaml|toml]` file
 * Plugins: <https://github.com/release-it/release-it#plugins>
 
